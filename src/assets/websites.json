@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/accounts/logout/"
+  },
+  {
+    "name": "Meetup",
+    "url": "https://www.meetup.com/logout/"
+  },
+  {
+    "name": "Product Hunt",
+    "url": "https://www.producthunt.com/logout"
+  },
+  {
+    "name": "Periscope",
+    "url": "https://www.pscp.tv/i/logout"
+  },
+  {
+    "name": "Zoho",
+    "url": "https://mail.zoho.com/biz/logout"
+  },
+  {
+    "name": "Zomato",
+    "url": "https://www.zomato.com/logout?noReturnOnLogout=FALSE"
+  },
+  {
+    "name": "Pizzhut",
+    "url": "https://online.pizzahut.co.in/user-logout"
+  },
+  {
+    "name": "Starbucks",
+    "url": "https://www.starbucks.com/account/signin"
+  },
+  {
+    "name": "Dominoz",
+    "url": "https://pizzaonline.dominos.co.in/logout?flag=true"
+  },
+  {
+    "name": "Uber",
+    "url": "https://riders.uber.com/logout"
+  },
+  {
+    "name": "Flipkart",
+    "url": "https://www.flipkart.com/api/2/user/logout"
+  },
+  {
+    "name": "Pocket",
+    "url": "https://getpocket.com/logout"
+  },
+  {
+    "name": "Google",
+    "url": "https://www.google.com/accounts/Logout"
+  },
+  {
+    "name": "Typeform",
+    "url": "https://admin.typeform.com/login/logout"
+  },
+  {
+    "name": "NetFlix",
+    "url": "http://www.netflix.com/Logout"
+  },
+  {
+    "name": "Tumblr",
+    "url": "https://www.tumblr.com/logout"
+  },
+  {
+    "name": "IFTTT",
+    "url": "https://ifttt.com/session/logout"
+  },
+  {
+    "name": "Zapier",
+    "url": "https://zapier.com/logout"
+  },
+  {
+    "name": "Hotstar",
+    "url": "https://account.hotstar.com/AVS/besc?action=Logout&channel=PCTV&appVersion=5.0.40"
+  },
+  {
+    "name": "Amazon",
+    "url":
+      "https://www.amazon.in/gp/flex/sign-out.html/ref=nav_youraccount_nav_youraccount_signout?ie=UTF8&action=sign-out"
+  },
+  {
+    "name": "Vimeo",
+    "url": "http://vimeo.com/log_out"
+  },
+  {
+    "name": "Threadless",
+    "url": "http://www.threadless.com/logout"
+  },
+  {
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com/logout"
+  },
+  {
+    "name": "Blogger",
+    "url": "http://www.blogger.com/logout.g"
+  },
+  {
+    "name": "Delicious",
+    "url": "http://www.delicious.com/logout"
+  },
+  {
+    "name": "Instapaper",
+    "url": "http://www.instapaper.com/user/logout"
+  },
+  {
+    "name": "Slashdot",
+    "url": "http://slashdot.org/my/logout"
+  },
+  {
+    "name": "ThinkGeek",
+    "url": "https://www.thinkgeek.com/brain/account/login.cgi?a=lo"
+  },
+  {
+    "name": "Woot",
+    "url": "https://account.woot.com/logout"
+  },
+  {
+    "name": "Yahoo!",
+    "url": "https://login.yahoo.com/config/login?.src=fpctx&logout=1&.direct=1&.done=http://www.yahoo.com/"
+  },
+  {
+    "name": "Photobucket",
+    "url": "http://photobucket.com/logout"
+  },
+  {
+    "name": "Skype",
+    "url": "https://secure.skype.com/account/logout"
+  },
+  {
+    "name": "Gandi",
+    "url": "https://www.gandi.net/login/out"
+  }
+]
