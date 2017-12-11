@@ -1,10 +1,20 @@
 <template>
-  <img :src="website.url" v-show="false">
+  <img :src="url" v-show="false">
 </template>
 
 <script>
 export default {
-	props: ['website']
+	props: {
+		website: {
+			type: Object,
+			required: true
+		}
+	},
+	computed: {
+		url() {
+			return this.website.url.trim();
+		}
+	}
 };
 </script>
 

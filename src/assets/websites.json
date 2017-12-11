@@ -57,7 +57,7 @@
   },
   {
     "name": "NetFlix",
-    "url": "http://www.netflix.com/Logout"
+    "url": "https://www.netflix.com/logout"
   },
   {
     "name": "Tumblr",
@@ -131,5 +131,77 @@
   {
     "name": "Gandi",
     "url": "https://www.gandi.net/login/out"
+  },
+  {
+    "name": "SBI Bank",
+    "url": "https://www.onlinesbi.com/retail/logout.htm"
+  },
+  {
+    "name": "Coutts Bank",
+    "url": "https://www.coutts.com/logout.html"
+  },
+  {
+    "name": "Atlassian",
+    "url": "https://id.atlassian.com/logout"
+  },
+  {
+    "name": "HDFC Bank",
+    "url": "https://www.hdfcbank.com/htdocs/common/NetBanking/logout.html"
+  },
+  {
+    "name": "Clydesdale Bank",
+    "url": "https://home.cbonline.co.uk/pkmslogout"
+  },
+  {
+    "name": "Fifth Third Bank",
+    "url": "www.53.com/content/fifth-third/en/logout.html"
+  },
+  {
+    "name": "New York Times",
+    "url": "https://myaccount.nytimes.com/gst/signout"
+  },
+  {
+    "name": "Office 365",
+    "url": "https://login.microsoftonline.com/logout.srf"
+  },
+  {
+    "name": "Gumtree",
+    "url": "https://my.gumtree.com/logout"
+  },
+  {
+    "name": "Fitbit",
+    "url": "https://www.fitbit.com/logout"
+  },
+  {
+    "name": "StatCounter",
+    "url": "https://statcounter.com/logout/"
+  },
+  {
+    "name": "irctc",
+    "url": "https://www.irctc.co.in/eticketing/logout?out"
+  },
+  {
+    "name": "Poloniex",
+    "url": "https://poloniex.com/logout"
+  },
+  {
+    "name": "M&T Bank",
+    "url": "https://onlinebanking.mtb.com/Information/LogOut"
+  },
+  {
+    "name": "South State Bank",
+    "url": "https://www.southstatebank.com/logout/"
+  },
+  {
+    "name": "Clydesdale",
+    "url": ""
+  },
+  {
+    "name": "Clydesdale",
+    "url": ""
+  },
+  {
+    "name": "Ulster Bank",
+    "url": "https://digital.ulsterbank.ie/globals/anytime-logout.html"
   }
 ]

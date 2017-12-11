@@ -1,5 +1,6 @@
 <template>
     <div class="vacate">
+      <vue-up></vue-up>
       <header class="vacate__header">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Vacate</span>
@@ -51,7 +52,22 @@ export default {
 
 	methods: {
 		logout() {
+			if (!this.selectedWebsites) {
+				this.$popup({
+					message: 'Please select atleast one website to proceed',
+					color: '#FFFFFF',
+					backgroundColor: '#F44336',
+					delay: 8
+				});
+				return;
+			}
 			this.display = true;
+			this.$popup({
+				message: 'Yay!! You Have Been Logged Out',
+				color: '#FFFFFF',
+				backgroundColor: '#FFC107',
+				delay: 8
+			});
 		},
 		clearDisplay() {
 			this.display = false;

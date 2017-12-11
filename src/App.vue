@@ -33,6 +33,6 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	color: #ffffff;
 	position: relative;
-	top: 10rem;
+	top: 15rem;
 }
 </style>
