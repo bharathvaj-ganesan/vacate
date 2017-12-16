@@ -193,12 +193,64 @@
     "url": "https://www.southstatebank.com/logout/"
   },
   {
-    "name": "Clydesdale",
-    "url": ""
+    "name": "Singapore Airlines",
+    "url": "https://www.singaporeair.com/en_UK/krisshop-logout.form/"
   },
   {
-    "name": "Clydesdale",
-    "url": ""
+    "name": "Pepsico",
+    "url": "https://sso.mypepsico.com/login/logout.jsp"
+  },
+  {
+    "name": "Vodafone India",
+    "url": "https://myvodafone.vodafone.in/customerselfcare/logout"
+  },
+  {
+    "name": "Naukri.com",
+    "url": "login.naukri.com/nLogin/Logout.php"
+  },
+  {
+    "name": "Ticketmaster",
+    "url": "https://www.ticketmaster.com/member/logout"
+  },
+  {
+    "name": "IDFC Bank",
+    "url": "https://www.idfcbank.com/logout-app.html"
+  },
+  {
+    "name": "Geni",
+    "url": "https://www.geni.com/logout"
+  },
+  {
+    "name": "Beyond Bank",
+    "url": "https://online.beyondbank.com.au/logout"
+  },
+  {
+    "name": "Verizon",
+    "url": "https://login.vzw.com/cdsso/public/c/logout"
+  },
+  {
+    "name": "American Funds",
+    "url": "https://www.americanfunds.com/individual/accounts/logout.htm"
+  },
+  {
+    "name": "Cisco",
+    "url": "https://www.cisco.com/c/m/en_us/about/logout.html"
+  },
+  {
+    "name": "Freshbooks",
+    "url": "https://my.freshbooks.com/#/logout"
+  },
+  {
+    "name": "Paypal",
+    "url": "https://www.paypal.com/uk/webapps/mpp/logout/act"
+  },
+  {
+    "name": "AGS Cinemas",
+    "url": "https://www.agscinemas.com/logout.php"
+  },
+  {
+    "name": "Bigbasket",
+    "url": "https://www.bigbasket.com/auth/logout/"
   },
   {
     "name": "Ulster Bank",
