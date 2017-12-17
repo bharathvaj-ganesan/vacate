@@ -117,6 +117,10 @@
     "url": "https://account.woot.com/logout"
   },
   {
+    "name": "Linkedin",
+    "url": "https://www.linkedin.com/m/logout/"
+  },
+  {
     "name": "Yahoo!",
     "url": "https://login.yahoo.com/config/login?.src=fpctx&logout=1&.direct=1&.done=http://www.yahoo.com/"
   },
@@ -251,6 +255,22 @@
   {
     "name": "Bigbasket",
     "url": "https://www.bigbasket.com/auth/logout/"
+  },
+  {
+    "name": "Yatra",
+    "url": "https://www.yatra.com/social/common/user/doLogout.htm"
+  },
+  {
+    "name": "99acres",
+    "url": "https://www.99acres.com/do/logout/out"
+  },
+  {
+    "name": "Snapdeal",
+    "url": "https://www.snapdeal.com/logout"
+  },
+  {
+    "name": "Swiggy",
+    "url": "https://www.swiggy.com/dapi/auth/logout"
   },
   {
     "name": "Ulster Bank",
