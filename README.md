@@ -6,7 +6,7 @@ Vacate can logs you out of dozens of services with single button click. Logging 
 
 ## Screenshot
 
-<img src="media/screenshot.jpg" width="100%">
+<img src="media/screenshot.jpg" width="1129">
 
 ## FAQ
 
