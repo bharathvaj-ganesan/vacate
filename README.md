@@ -6,8 +6,11 @@ Vacate can logs you out of dozens of services with single button click. Logging 
 
 ## Screenshot
 
-![](media/screenshot.jpg)
-
+<h1 align="center">
+	<br>
+	<img width="1000" src="./media/screenshot.jpg">
+	<br>
+</h1>
 ## FAQ
 
 ### How this is better than superlogout?
