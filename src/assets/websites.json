@@ -275,5 +275,21 @@
   {
     "name": "Ulster Bank",
     "url": "https://digital.ulsterbank.ie/globals/anytime-logout.html"
+  },
+  {
+    "name": "Udemy",
+    "url": "https://www.udemy.com/user/logout/"
+  },
+  {
+    "name": "Freecodecamp",
+    "url": "https://www.freecodecamp.org/signout"
+  },
+  {
+    "name": "Jsfiddle",
+    "url": "https://jsfiddle.net/user/logout/"
+  },
+  {
+    "name": "JsBin",
+    "url": "https://jsbin.com/logout"
   }
 ]
