@@ -41,7 +41,7 @@ export default {
 	data() {
 		return {
 			display: false,
-			selectedWebsites: null,
+			selectedWebsites: [],
 			websitesList
 		};
 	},
@@ -52,9 +52,9 @@ export default {
 
 	methods: {
 		logout() {
-			if (!this.selectedWebsites) {
+			if (this.selectedWebsites && this.selectedWebsites.length === 0) {
 				this.$popup({
-					message: 'Please select atleast one website to proceed',
+					message: 'Please select atleast one service to proceed',
 					color: '#FFFFFF',
 					backgroundColor: '#F44336',
 					delay: 8

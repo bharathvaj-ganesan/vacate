@@ -1,21 +1,22 @@
-# easy-logout
+# Vacate
 
-> A Vue.js project
+> Vacate yourself before you leave the browser.
 
-## Build Setup
+Vacate can logs you out of dozens of services with single button click. Logging out of your account when you’re done using a computer other than your own is just good security and is very handy. If you use multiple accounts and want to simplify the process, Vacate can log you out of over 40 major services at once at blazing speed.
 
-``` bash
-# install dependencies
-npm install
+## Screenshot
 
-# serve with hot reload at localhost:8080
-npm run dev
+<img src="media/screenshot.jpg" width="100%">
 
-# build for production with minification
-npm run build
+## FAQ
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+### How this is better than superlogout?
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* More websites
+* Blazing fast with Vuejs
+* Controlled logout
+* Open Source
+
+## License
+
+MIT © [Bharathvaj Ganesan](https://bharathvajganesan.me)
