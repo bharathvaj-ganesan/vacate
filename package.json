@@ -1,7 +1,7 @@
 {
-  "name": "easy-logout",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "vacate",
+  "version": "1.0.1",
+  "description": "Vacate yourself before you leave the browser.",
   "author": "Bharathvaj <bharathvaj1995@gmail.com>",
   "private": true,
   "scripts": {
