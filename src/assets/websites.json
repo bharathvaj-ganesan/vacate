@@ -291,5 +291,9 @@
   {
     "name": "JsBin",
     "url": "https://jsbin.com/logout"
+  },
+  {
+    "name": "PickYourTrail",
+    "url": "https://pickyourtrail.com/user/logout"
   }
 ]
