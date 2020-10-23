@@ -1,6 +1,6 @@
 {
   "name": "vacate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vacate yourself before you leave the browser.",
   "author": "Bharathvaj <bharathvaj1995@gmail.com>",
   "private": true,
@@ -66,5 +66,9 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
