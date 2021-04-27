@@ -1,5 +1,9 @@
 [
   {
+    "name": "Chargebee",
+    "url": "https://app.chargebee.com/logout"
+  },
+  {
     "name": "Instagram",
     "url": "https://www.instagram.com/accounts/logout/"
   },
@@ -77,8 +81,7 @@
   },
   {
     "name": "Amazon",
-    "url":
-      "https://www.amazon.in/gp/flex/sign-out.html/ref=nav_youraccount_nav_youraccount_signout?ie=UTF8&action=sign-out"
+    "url": "https://www.amazon.in/gp/flex/sign-out.html/ref=nav_youraccount_nav_youraccount_signout?ie=UTF8&action=sign-out"
   },
   {
     "name": "Vimeo",
