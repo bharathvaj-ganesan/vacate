@@ -16,10 +16,10 @@ Vacate can logs you out of dozens of services with single button click. Logging 
 
 ### How this is better than superlogout?
 
-* More websites
-* Blazing fast with modern Vuejs
-* Controlled logout
-* Open Source
+- More websites
+- Blazing fast with modern Vuejs
+- Controlled logout
+- Open Source
 
 ## License
 
