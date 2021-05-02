@@ -15,7 +15,7 @@
       label="name"
       :multiple="true"
       trackBy="name"
-      placeholder="I want to log out from ..."
+      :placeholder="logoutFieldPlaceholder"
       :preserve-search="false"
       :clear-on-select="false"
       aria-placeholder="Choose Websites"
@@ -39,12 +39,12 @@
 </template>
 
 <script>
-import Website from "@/components/Website";
+import AppWebsite from "@/components/Website";
 import websitesList from "@/assets/websites";
 import Multiselect from "vue-multiselect";
 
 export default {
-  name: "vacate",
+  name: "Home",
   data() {
     return {
       display: false,
@@ -53,19 +53,23 @@ export default {
     };
   },
   components: {
-    appWebsite: Website,
+    AppWebsite,
     Multiselect
+  },
+  computed: {
+    areWebsitesSelected() {
+      return Boolean(this.selectedWebsites.length);
+    },
+    logoutFieldPlaceholder() {
+      return this.areWebsitesSelected
+        ? "I want to log out from"
+        : "I want to log out from all applications listed";
+    }
   },
 
   methods: {
     logout() {
-      if (this.selectedWebsites && this.selectedWebsites.length === 0) {
-        this.$popup({
-          message: "Please select atleast one service to proceed",
-          color: "#FFFFFF",
-          backgroundColor: "#F44336",
-          delay: 2
-        });
+      if (this.selectedWebsites.length === 0) {
         return;
       }
       this.display = true;
@@ -73,7 +77,7 @@ export default {
         message: "Yay!! You Have Been Logged Out",
         color: "#FFFFFF",
         backgroundColor: "#FFC107",
-        delay: 4
+        delay: 2
       });
     },
     clearDisplay() {

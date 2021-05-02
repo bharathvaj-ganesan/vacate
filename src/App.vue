@@ -9,17 +9,20 @@
     /></a>
     <div id="app">
       <Home />
+      <ProductHuntBadge />
     </div>
   </div>
 </template>
 
 <script>
 import Home from "./components/Home";
+import ProductHuntBadge from "./components/ProductHuntBadge";
 
 export default {
   name: "app",
   components: {
-    Home
+    Home,
+    ProductHuntBadge
   }
 };
 </script>
