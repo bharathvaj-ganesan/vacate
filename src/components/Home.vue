@@ -29,7 +29,7 @@
     </div>
     <div v-if="display">
       <app-website
-        v-for="website in selectedWebsites"
+        v-for="website in websitesToBeLoggedOut"
         :key="website.name"
         :website="website"
       >
@@ -49,7 +49,8 @@ export default {
     return {
       display: false,
       selectedWebsites: [],
-      websitesList
+      websitesList,
+      websitesToBeLoggedOut: []
     };
   },
   components: {
@@ -69,9 +70,9 @@ export default {
 
   methods: {
     logout() {
-      if (this.selectedWebsites.length === 0) {
-        return;
-      }
+      this.websitesToBeLoggedOut = this.selectedWebsites.length
+        ? this.selectedWebsites
+        : websitesList;
       this.display = true;
       this.$popup({
         message: "Yay!! You Have Been Logged Out",
@@ -89,7 +90,7 @@ export default {
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 .vacate {
   display: flex;
   flex-direction: column;
@@ -194,6 +195,12 @@ export default {
   }
   .heading-primary--sub {
     font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .vue-up .text {
+    font-size: 32px !important;
   }
 }
 </style>
