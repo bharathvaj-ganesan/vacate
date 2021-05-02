@@ -25,4 +25,4 @@ jobs:
         run: npm install -g surge
 
       - name: Deploy to Surge
-        run: surge ./build https://vacate.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./dist https://vacate.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
